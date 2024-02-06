@@ -15,5 +15,5 @@ The United States Geological Survey (USGS) is interested in building a new set o
   - The earthquake markers reflect the magnitude of the earthquake by their size
   - The markers reflect the depth of the earthquake by colour
   - Popups provide additional information about the earthquake when its associated marker is clicked such as magnitude, location and depth of the earthquake
-  - A legend that will provide context for the map data
+  - A legend that provides context for the map data
 
