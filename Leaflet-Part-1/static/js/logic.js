@@ -49,7 +49,7 @@ function createMapAndMarkers(response){
   colours = ["green","greenyellow","yellow","orange","orangered","red"];
   
    // Loop through the earthquakes array.
-   for (let i = 0; i < earthquakes.length; i++) {
+  for (let i = 0; i < earthquakes.length; i++) {
 
     let popUpString = [];
 
@@ -111,15 +111,8 @@ function createMapAndMarkers(response){
     }
    return div;
   };
-  legend.addTo(myMap);
 
-  var myIcon= L.Icon.extend({
-    options: {
-        iconUrl: 'icon.png',
-        iconSize: [7.5, 7.5],
-        iconAnchor: [0, 0]
-    }
-});
+  legend.addTo(myMap);
 
 }
 
